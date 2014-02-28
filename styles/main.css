@@ -7,6 +7,7 @@ body {
   font-weight: 100;
   color: #fff;
   font-size: 16px;
+  background-color: #5b5e6f; 
 }
 
 h1,h2,h3 {
@@ -33,11 +34,73 @@ p {
 	line-height: 18px;
 }
 
+header {
+	background-color: #373949; 
+	height: 100px;
+	width: 100%;
 
+}
+header h1 {
+	float: left;
+	margin: 25px 0 0 10px;
+}
+
+#buttons {
+	float: right;
+}
+
+#refresh {
+	float: left;
+	height: 100px;
+	width:100px;
+	background: #fd6e6e url('../images/refresh.png') center center no-repeat;
+}
+
+#compose {
+	float: left;
+	height: 100px;
+	width:100px;
+	background: #36e2be url('../images/compose.png') center center no-repeat;
+}
+section {
+	clear:both;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	border-bottom: 1px solid #a1a9bb;
+	padding: 15px 0px;
+	float: left;
+}
+.marker {
+	float:left;
+	width: 3%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.container {
+	float:left;
+	width: 97%;
+	height: 100%;
+}
+
+.read {
+	width: 20px;
+	height:20px;
+	background:#00d3a7;
+	border-radius: 10px  
+}
 
 @media only screen and (max-width: 670px) and (min-width: 320px) {
 
 
 }
+
+
 
 
