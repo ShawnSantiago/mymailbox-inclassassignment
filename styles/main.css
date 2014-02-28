@@ -78,26 +78,80 @@ ul li {
 }
 .marker {
 	float:left;
-	width: 3%;
-	margin: 0 auto;
+	width: 3%;	
 	height: 100%;
+	padding: 50px 0px;
 }
 
 .container {
 	float:left;
 	width: 97%;
 	height: 100%;
+	padding-right: 20px;
 }
 
 .read {
 	width: 20px;
 	height:20px;
 	background:#00d3a7;
-	border-radius: 10px  
+	border-radius: 10px ;
+	margin: 0 auto;
 }
 
 @media only screen and (max-width: 670px) and (min-width: 320px) {
 
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #a1a9bb;
+}
+
+p {
+	margin: 0;
+	font-size: 14px;
+}
+
+header {
+ 	height: 50px;
+}	
+
+header h1 {
+	margin-top:10px;
+}
+
+#refresh {
+	height: 50px;
+	width: 50px;
+	background-size: 80%;
+
+}
+
+#compose {
+	height: 50px;
+	width: 50px;
+	background-size: 80%;
+}
+
+ul li {
+	height: 125px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.marker {
+	width: 10%;
+}
+
+.container {
+	width: 90%;
+}
 
 }
 
